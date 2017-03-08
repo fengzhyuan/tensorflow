@@ -27,6 +27,7 @@ RE2_URL="$(grep -o 'http.*github.com/google/re2/.*tar\.gz' "${BZL_FILE_PATH}" | 
 
 # TODO(petewarden): Some new code in Eigen triggers a clang bug with iOS arm64,
 #                   so work around it by patching the source.
+# add absolute path for sed in case of sed couldn't open error in macOS
 replace_by_sed() {
   local regex="${1}"
   shift
