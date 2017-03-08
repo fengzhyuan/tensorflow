@@ -69,4 +69,4 @@ Hello, TensorFlow!
 The TensorFlow community has created amazing things with TensorFlow, please see the [resources section of tensorflow.org](https://www.tensorflow.org/versions/master/resources#community) for an incomplete list.
 
 ## Update for macOS Sierra 10.12.3
-Met an error: sed: cannot open file; To make it work, modify `sed -i` in `tensorflow/contrib/makefiles/download_denpendencies.sh` to `/usr/bin/sed` 
+Met an error: sed: cannot open file; To make it work, modify `sed -i` in `tensorflow/contrib/makefiles/download_denpendencies.sh` to `/usr/bin/sed`.
